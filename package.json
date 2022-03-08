@@ -1,5 +1,5 @@
 {
-  "name": "react-native-tab-view",
+  "name": "@deelzat/react-native-tab-view",
   "version": "3.1.1",
   "description": "Tab view component for React Native",
   "main": "lib/commonjs/index.js",
@@ -69,7 +69,7 @@
     "react": "*",
     "react-native": "*",
     "react-native-pager-view": "*",
-    "deelzat/react-native-pager-view": "*"
+    "@deelzat/react-native-pager-view": "*"
   },
   "husky": {
     "hooks": {
@@ -97,5 +97,10 @@
         }
       ]
     ]
-  }
+  },
+  "directories": {
+    "example": "example",
+    "lib": "lib"
+  },
+  "dependencies": {}
 }
