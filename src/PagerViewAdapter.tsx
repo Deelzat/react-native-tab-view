@@ -2,7 +2,7 @@ import * as React from 'react';
 import { Animated, Keyboard, StyleSheet } from 'react-native';
 import ViewPager, {
   PageScrollStateChangedNativeEvent,
-} from 'react-native-pager-view';
+} from '@deelzat/react-native-pager-view';
 import useAnimatedValue from './useAnimatedValue';
 import type {
   NavigationState,
