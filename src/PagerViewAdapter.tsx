@@ -125,6 +125,7 @@ export default function PagerViewAdapter<T extends Route>({
         ref={pagerRef}
         style={[styles.container, style]}
         initialPage={index}
+        layoutDirection={'locale'}
         keyboardDismissMode={
           keyboardDismissMode === 'auto' ? 'on-drag' : keyboardDismissMode
         }
